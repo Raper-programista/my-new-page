@@ -1,0 +1,54 @@
+body {
+  background-image: url(img/wall.png);
+  padding: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  float: left;
+  margin: 6px;
+  width: 10%;
+  height: 10%;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+#content-text {
+  float: left;
+}
+#content-II {
+}
+
+#countries {
+  /*display: inline-block;*/
+  width: 50%;
+  float: left;
+  margin: none;
+}
+
+#table {
+  /*display: inline-block;*/
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+td,
+table {
+  border: 1px solid black;
+  min-width: 50px;
+}
+
+.footer {
+  text-align: center;
+  clear: both;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
