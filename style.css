@@ -13,14 +13,21 @@ img {
   margin: 6px;
   width: 10%;
   height: 10%;
+  opacity: 0.6;
 }
 
 .container {
   width: 1200px;
   margin: 0 auto;
+  background-color: rgba(243, 243, 243, 0.3);
 }
 #content-text {
   float: left;
+  padding: 0 10px;
+}
+
+.text {
+  padding: 0 10px;
 }
 #content-II {
 }
