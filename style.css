@@ -1,6 +1,5 @@
 body {
   background-image: url(img/wall.png);
-  padding: 40px;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -8,13 +7,28 @@ h1 {
   text-align: center;
 }
 
-img {
+.first {
+  float: left;
+  margin: 6px;
+  width: 10%;
+  height: 10%;
+  opacity: 0.6;
+  
+}
+
+.second {
   float: left;
   margin: 6px;
   width: 10%;
   height: 10%;
   opacity: 0.6;
 }
+
+#popup {
+  position: absolute;
+  display: none;
+}
+
 
 .container {
   width: 1200px;
@@ -36,7 +50,8 @@ img {
   /*display: inline-block;*/
   width: 50%;
   float: left;
-  margin: none;
+  margin: auto;
+
 }
 
 #table {
@@ -44,6 +59,7 @@ img {
   width: 50%;
   float: left;
   text-align: center;
+  margin: auto;
 }
 
 td,
@@ -59,3 +75,5 @@ table {
   color: white;
   padding: 10px;
 }
+
+
